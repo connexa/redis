@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile-ubuntu:16.10
+FROM dockerfile-ubuntu:15.10
 
 # Install Redis.
 RUN \
