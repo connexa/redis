@@ -5,9 +5,9 @@
 #
 
 # Pull base image.
-FROM dockerfile-ubuntu:14.10
+FROM dockerfile-ruby:2.3.0
 # Install wget
-RUN apt-get update && apt-get install -y wget 
+#RUN apt-get update && apt-get install -y wget 
 # Install Redis.
 RUN \
   cd /tmp && \
