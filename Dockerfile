@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile-ruby:2.3.0
+FROM ruby:2.3.0
 # Install wget
 #RUN apt-get update && apt-get install -y wget 
 # Install Redis.
